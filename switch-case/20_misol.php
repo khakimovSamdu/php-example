@@ -25,5 +25,5 @@ if($d<=20 and $m>=1 and $m<=2 and $d>=18){
     echo "O\'qotar";
 }else if($d<=22 and $m>=1 and $m<=12 and $d>=19){
     echo "Echki";
-}
+} 
 ?>
