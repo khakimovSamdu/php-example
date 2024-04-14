@@ -1,5 +1,7 @@
 <?php
-function EKUB($a, $b){
+function EKUK($a, $b){
+    $p = $a;
+    $q = $b;
     while($a!=$b){
         if($a>$b){
             $a = $a -$b;
@@ -7,7 +9,7 @@ function EKUB($a, $b){
             $b = $b - $a;
         }
     }
-    return $a
+    return ($p*$q)/$a;
 }
-echo EKUB($_GET['a'], $_GET['b']);
+echo EKUK($_GET['a'], $_GET['b']);
 ?>
