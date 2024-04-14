@@ -7,7 +7,7 @@ function EKUB($a, $b){
             $b = $b - $a;
         }
     }
-    return $a
+    return $a;
 }
 echo EKUB($_GET['a'], $_GET['b']);
 ?>
